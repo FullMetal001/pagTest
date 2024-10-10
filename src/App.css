@@ -1,0 +1,37 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.rey-card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 5px 10px;
+}
+
+.textoP {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.conteo {
+    font-size: 1.5em;
+    background-color: gray;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+.reyVotado {
+    background-color: red;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
